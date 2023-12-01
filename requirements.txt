@@ -1,4 +1,3 @@
 Flask
 gunicorn
-Werkzeug
-opencv-python
+requests
