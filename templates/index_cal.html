@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    
+</head>
+<header>
+    <body>
+    <h1>
+        Welcome Calculator
+    </h1>
+</header>
+<div class="content">
+    <div class="form">
+        <form action="/math" method="POST">
+            <label for="operation">Choose a Mathematical Operation</label>
+
+<select id="operation" name="operation">
+  <option value="add">Add</option>
+  <option value="subtract">Subtract</option>
+  <option value="multiply">Multiply</option>
+  <option value="divide">Divide</option>
+</select>
+            <input type="text" name="num1" id="num1">
+            <input type="text" name="num2" id="num2">
+            <input type="submit" value="Calculate">
+            
+        </form>
+    </div>
+</div>
+
+<section>
+    <h2>Welcome Back In My Calculator</h2>
+    <p>This is very basic calculator where you can calculate result based on your data.Some keys feature are:</p>
+
+    <ol>
+        <li>
+            <h3>Choose an Operation</h3>
+            <p>Select specific operation like , Add,Substract,Multiply and Divide.</p>
+        </li>
+
+        <li>
+            <h3>Input Numbers</h3>
+            <p>Put your numbers in empty boxes.</p>
+        </li>
+        <li>
+            <h3>Click on Calculate Button</h3>
+            <p>When you click calculate button you will able to see your result in next page.</p>
+        </li>
+    </ol>
+</section>
+<footer>
+    <div class="vijay">&copy; 2023 Welcome Calculator. All rights reserved.</div>
+    <!-- <p>&copy; 2023 Welcome Calculator. All rights reserved.</p> -->
+</footer>
+<style>
+    body{
+        font-family:'Arial','sans-serif';
+        padding:0;
+        margin : 0;
+        background-color: #0f0f0f;
+    }
+    header{
+        background-color:black;
+        text-align:center;
+        color:#fff;
+        padding: 0.5em;
+        
+    }
+    p{
+        line-height:1.6;
+        color: #1d1dd0;
+        
+    }
+    .content{
+        text-align:center;
+        margin: 1em;
+        background-color:#fff;
+        line-height:normal;
+        font-size:.4f;
+    }
+    select{
+        max-width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+    }
+    footer{
+        background-color: #333;
+            color: #ced33d;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+    }
+    section{
+        max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+    }
+    h3{
+        max-width:fit-content;
+        background-color:#0f0f0f;
+        color:#fff;
+        border-radius:5%;
+       
+       
+    }
+</style>
+
+</body>
+</head>
