@@ -1,3 +1,6 @@
 Flask
 gunicorn
 requests
+Werkzeug
+cv2
+os
