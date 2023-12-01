@@ -1,6 +1,4 @@
 Flask
 gunicorn
-requests
 Werkzeug
-cv2
-os
+opencv-python
